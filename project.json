@@ -3,8 +3,137 @@
   "meta": {
     "name": "nova_test",
     "createdAt": "2026-06-17T03:08:41.626Z",
-    "updatedAt": "2026-06-17T03:08:41.626Z"
+    "updatedAt": "2026-06-17T03:12:11.348Z"
   },
+  "pages": [
+    {
+      "id": "page_ooD3HR",
+      "name": "Home",
+      "route": "/",
+      "elements": [
+        {
+          "id": "node_E0ZIzojV",
+          "type": "Navbar",
+          "props": {
+            "bgColor": "#ffffff",
+            "sticky": false
+          },
+          "children": [
+            {
+              "id": "node_9qLlPiB4",
+              "type": "Link",
+              "props": {
+                "label": "Nova",
+                "href": "/",
+                "classOverrides": [
+                  "mr-auto",
+                  "font-bold",
+                  "text-xl",
+                  "text-indigo-600",
+                  "no-underline"
+                ]
+              },
+              "children": []
+            },
+            {
+              "id": "node_GZoi1TCv",
+              "type": "Link",
+              "props": {
+                "label": "Features",
+                "href": "#features"
+              },
+              "children": []
+            },
+            {
+              "id": "node_GkkUO5WD",
+              "type": "Link",
+              "props": {
+                "label": "Pricing",
+                "href": "#pricing"
+              },
+              "children": []
+            },
+            {
+              "id": "node_CsrZXFbZ",
+              "type": "Link",
+              "props": {
+                "label": "About",
+                "href": "#about"
+              },
+              "children": []
+            },
+            {
+              "id": "node_7qvts14U",
+              "type": "Button",
+              "props": {
+                "label": "Sign Up",
+                "href": "/signup",
+                "variant": "primary"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node_Z4xJ70es",
+          "type": "HeroSection",
+          "props": {
+            "bgColor": "#ffffff",
+            "align": "center",
+            "layout": "split-left",
+            "minHeight": "none"
+          },
+          "children": []
+        },
+        {
+          "id": "node_jg0U3b-m",
+          "type": "Box",
+          "props": {
+            "as": "div",
+            "bgColor": "transparent",
+            "classOverrides": []
+          },
+          "children": []
+        },
+        {
+          "id": "node_Omdu8NB2",
+          "type": "TextBlock",
+          "props": {
+            "content": "Welcome to Your New Page",
+            "tag": "h1",
+            "textColor": "#111827",
+            "classOverrides": [
+              "text-3xl",
+              "font-bold"
+            ]
+          },
+          "children": []
+        },
+        {
+          "id": "node_VnDyNGFi",
+          "type": "TextBlock",
+          "props": {
+            "content": "Edit this hero section or use AI to redesign it.",
+            "tag": "p",
+            "textColor": "#6b7280",
+            "classOverrides": [
+              "text-xl"
+            ]
+          },
+          "children": []
+        },
+        {
+          "id": "node_1zIDykdM",
+          "type": "Footer",
+          "props": {
+            "copyright": "© 2026 My Company"
+          },
+          "children": []
+        }
+      ],
+      "seo": {}
+    }
+  ],
   "theme": {
     "colors": {
       "primary": "#7c3aed",
@@ -27,62 +156,5 @@
       "lg": "24px",
       "xl": "48px"
     }
-  },
-  "pages": [
-    {
-      "id": "page_ooD3HR",
-      "name": "Home",
-      "route": "/",
-      "elements": [
-        {
-          "id": "node_Z4xJ70es",
-          "type": "HeroSection",
-          "props": {
-            "bgColor": "#ffffff",
-            "align": "center",
-            "layout": "centered",
-            "minHeight": "none"
-          },
-          "children": [
-            {
-              "id": "node_Omdu8NB2",
-              "type": "TextBlock",
-              "props": {
-                "content": "Welcome to Your New Page",
-                "tag": "h1",
-                "textColor": "#111827",
-                "classOverrides": [
-                  "text-3xl",
-                  "font-bold"
-                ]
-              },
-              "children": []
-            },
-            {
-              "id": "node_VnDyNGFi",
-              "type": "TextBlock",
-              "props": {
-                "content": "Edit this hero section or use AI to redesign it.",
-                "tag": "p",
-                "textColor": "#6b7280",
-                "classOverrides": [
-                  "text-xl"
-                ]
-              },
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": "node_1zIDykdM",
-          "type": "Footer",
-          "props": {
-            "copyright": "© 2026 My Company"
-          },
-          "children": []
-        }
-      ],
-      "seo": {}
-    }
-  ]
+  }
 }
